@@ -1,6 +1,6 @@
-# MO Riise · AI-native F&O POC
+# MO Riise · AI-native POC
 
-Leadership demo of four ways into the same Motilal Oswal Riise session: **Traditional**, **AI-enabled**, **Copilot**, and **Native**. Mocked NIFTY F&O book. Genie drafts only — the trader confirms.
+Leadership demo of four ways into the same Motilal Oswal Riise session: **Traditional**, **AI-enabled**, **Copilot**, and **AI-Native**. Mocked NIFTY F&O book. Genie drafts only — the trader confirms.
 
 App lives in [`genie-poc/`](./genie-poc). Demo spine: [`genie-poc/docs/demo-script.md`](./genie-poc/docs/demo-script.md).
 
