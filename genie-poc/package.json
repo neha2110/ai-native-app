@@ -1,0 +1,15 @@
+{
+  "name": "genie-poc",
+  "private": true,
+  "version": "0.1.0",
+  "description": "MO Genie F&O Copilot POC — Classic vs Genie mode on a mocked broker",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix web",
+    "dev": "concurrently -n server,web -c yellow,cyan \"npm run dev --prefix server\" \"npm run dev --prefix web\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:web": "npm run dev --prefix web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
